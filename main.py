@@ -118,8 +118,21 @@
 #
 # INSERT INTO customer(customer_id, salesperson_id, customer_car_name, customer_car_id)
 # VALUES(2, 2, 'BMW', 2);
-# 
+
+# INSERT INTO new_car(new_car_id, new_car_name, customer_id)
+# VALUES(4, 'Dodge', 2);
 #
+# INSERT INTO customer(customer_id)
+# VALUES(7);
 #
+# INSERT INTO new_car(new_car_id, new_car_name, customer_id)
+# VALUES(5, 'Lexus', 3);
 #
+# INSERT INTO used_car(used_car_id, used_car_name, customer_id)
+# VALUES(1, 'Honda', 5);
+#
+# INSERT INTO invoice(invoice_id, invoice_amount, customer_id)
+# VALUES(2, 15000, 1)
+
+
 
